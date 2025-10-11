@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GeoJson</string>
+    <string name="maps">Maps</string>
+    <string name="about">About</string>
+</resources>
