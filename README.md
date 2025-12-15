@@ -2,9 +2,9 @@
 
 A modern Android application demonstrating GeoJSON data visualization with interactive maps using Jetpack Compose, Material 3 design. This project showcases clean architecture patterns, multi-module design, and production-ready Android development practices.
 
-## 📱 Project Overview
+## Project Overview
 
-🛑 **NOTE**: This repository exists as a read-only public portfolio piece to showcase the architecture and technical depth of modern Android development with GeoJSON visualization. Contributions, Pull Requests, and Issues are not accepted for this specific project. Contact me if you want to be a contributor.
+**NOTE**: This repository exists as a read-only public portfolio piece to showcase the architecture and technical depth of modern Android development with GeoJSON visualization. Contributions, Pull Requests, and Issues are not accepted for this specific project. Contact me if you want to be a contributor.
 
 GeoJson Android Demo features:
 
@@ -14,7 +14,7 @@ GeoJson Android Demo features:
 - **Comprehensive Testing**: 100% Mockito-based unit tests with GIVEN-WHEN-THEN format
 - **Production Features**: Error handling, performance monitoring, and structured logging
 
-## 🏗️ Architecture
+## Architecture
 
 ### Android Multi-Module Architecture
 
@@ -47,33 +47,33 @@ Android/
     └── screens/           # Map rendering and coordinate conversion
 ```
 
-## 🚀 Features
+## Features
 
 ### Core Application Features
 
-- ✅ **GeoJSON Visualization** with custom canvas rendering and coordinate transformation
-- ✅ **Interactive Maps** with real-time coordinate conversion (LatLng to Canvas)
-- ✅ **Modern Compose UI** with Material 3 Design System and extended color schemes
-- ✅ **Type-safe Navigation** with Compose Navigation Graph and bottom bar
-- ✅ **Multi-module Architecture** with clean separation of concerns
-- ✅ **Performance Monitoring** with coroutine-based measurement tools
-- ✅ **Comprehensive Testing** with 100% Mockito-based unit tests
-- ✅ **Dark/Light Theme Support** with extended Material 3 color schemes
-- ✅ **About Screen** with application version information and metadata
-- ✅ **Resource Management** with abstracted repository pattern
-- ✅ **Error Handling** with structured exception management
+- **GeoJSON Visualization** with custom canvas rendering and coordinate transformation
+- **Interactive Maps** with real-time coordinate conversion (LatLng to Canvas)
+- **Modern Compose UI** with Material 3 Design System and extended color schemes
+- **Type-safe Navigation** with Compose Navigation Graph and bottom bar
+- **Multi-module Architecture** with clean separation of concerns
+- **Performance Monitoring** with coroutine-based measurement tools
+- **Comprehensive Testing** with 100% Mockito-based unit tests
+- **Dark/Light Theme Support** with extended Material 3 color schemes
+- **About Screen** with application version information and metadata
+- **Resource Management** with abstracted repository pattern
+- **Error Handling** with structured exception management
 
 ### Testing Features
 
-- ✅ **GIVEN-WHEN-THEN Format** for all unit tests following BDD principles
-- ✅ **Mockito-Only Testing** with no Robolectric dependencies for faster execution
-- ✅ **Comprehensive Coverage** across all modules (core, about, maps, app)
-- ✅ **Coordinate Conversion Testing** with geographic edge cases and real-world locations
-- ✅ **ViewModel Testing** with proper coroutine and StateFlow handling
-- ✅ **Repository Testing** with Android Context mocking patterns
-- ✅ **Dependency Injection Testing** for Hilt modules and providers
+- **GIVEN-WHEN-THEN Format** for all unit tests following BDD principles
+- **Mockito-Only Testing** with no Robolectric dependencies for faster execution
+- **Comprehensive Coverage** across all modules (core, about, maps, app)
+- **Coordinate Conversion Testing** with geographic edge cases and real-world locations
+- **ViewModel Testing** with proper coroutine and StateFlow handling
+- **Repository Testing** with Android Context mocking patterns
+- **Dependency Injection Testing** for Hilt modules and providers
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### Android Development
 
@@ -83,7 +83,7 @@ Android/
 - **Gradle**: 8.10+
 - **Kotlin**: 2.0.20+
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 
@@ -131,7 +131,7 @@ cd munay-demos/GeoJson/Android
    - Connect Android device or start emulator
    - Click Run in Android Studio
 
-## 🎨 Compose Architecture & UI Components
+## Compose Architecture & UI Components
 
 ### Modern Compose Implementation
 
@@ -192,11 +192,11 @@ fun latLngToCanvasPoint(
 ```
 
 **Features**:
-- 🗺️ **Custom Canvas Rendering** with efficient GeoJSON visualization
-- 📍 **Coordinate Transformation** from geographic to screen coordinates
-- 🎨 **Material 3 Integration** with themed colors and styling
-- 📱 **Responsive Design** that adapts to different screen sizes
-- ⚡ **Performance Optimized** rendering for smooth user experience
+- **Custom Canvas Rendering** with efficient GeoJSON visualization
+- **Coordinate Transformation** from geographic to screen coordinates
+- **Material 3 Integration** with themed colors and styling
+- **Responsive Design** that adapts to different screen sizes
+- **Performance Optimized** rendering for smooth user experience
 
 ##### 2. AboutScreen - Application Information Display
 
@@ -213,10 +213,10 @@ fun AboutScreen(viewModel: AboutViewModel) {
 ```
 
 **Features**:
-- 📋 **Version Information** with build details and metadata
-- 🎨 **Material 3 Cards** with proper elevation and theming
-- 📱 **Scrollable Layout** with proper content organization
-- ⚡ **StateFlow Integration** with reactive UI updates
+- **Version Information** with build details and metadata
+- **Material 3 Cards** with proper elevation and theming
+- **Scrollable Layout** with proper content organization
+- **StateFlow Integration** with reactive UI updates
 
 #### Material 3 Theme System
 
@@ -254,10 +254,10 @@ fun AppTheme(
 ```
 
 **Features**:
-- 🌙 **Dark/Light Mode** with system preference detection
-- 🎨 **Extended Color Palette** beyond Material 3 defaults
-- 🎯 **Dynamic Colors** (Android 12+ Material You support)
-- 🔤 **Custom Typography** with consistent text styling
+- **Dark/Light Mode** with system preference detection
+- **Extended Color Palette** beyond Material 3 defaults
+- **Dynamic Colors** (Android 12+ Material You support)
+- **Custom Typography** with consistent text styling
 
 #### Bottom Navigation Integration
 
@@ -280,7 +280,7 @@ fun BottomBar(
 }
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Android Dependencies (Latest 2024 Versions)
 
@@ -351,7 +351,7 @@ testImplementation("androidx.arch.core:core-testing:2.2.0")
 // Faster execution, focused on business logic
 ```
 
-## 🏃‍♂️ Usage Guide
+## Usage Guide
 
 ### Starting the Application
 
@@ -377,7 +377,7 @@ The Maps screen demonstrates:
 - **Responsive Design**: Adapts to different screen sizes and orientations
 - **Performance Optimized**: Smooth rendering with efficient drawing operations
 
-## 🎯 Key Architecture Patterns
+## Key Architecture Patterns
 
 ### Single Source of Truth Pattern
 
@@ -443,7 +443,7 @@ class ResourceRepositoryImpl @Inject constructor(
 }
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Customizing the Application
 
@@ -467,30 +467,30 @@ val extendedColorLight = ExtendedColorScheme(
 // with your custom GeoJSON data
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
 #### Build Failures
 
-- ✅ **Gradle Sync**: Ensure Android Studio syncs successfully
-- ✅ **JDK Version**: Verify JDK 18+ is configured
-- ✅ **SDK Versions**: Check compileSdk 34 and targetSdk 34
-- ✅ **Dependencies**: Verify all dependencies are resolved
+- **Gradle Sync**: Ensure Android Studio syncs successfully
+- **JDK Version**: Verify JDK 18+ is configured
+- **SDK Versions**: Check compileSdk 34 and targetSdk 34
+- **Dependencies**: Verify all dependencies are resolved
 
 #### Test Failures
 
-- ✅ **Mockito Setup**: Ensure MockitoAnnotations.openMocks() is called
-- ✅ **Coroutine Testing**: Use StandardTestDispatcher for async tests
-- ✅ **Context Mocking**: Properly mock Android Context dependencies
-- ✅ **Type Safety**: Check Float/Double type conversions in coordinate tests
+- **Mockito Setup**: Ensure MockitoAnnotations.openMocks() is called
+- **Coroutine Testing**: Use StandardTestDispatcher for async tests
+- **Context Mocking**: Properly mock Android Context dependencies
+- **Type Safety**: Check Float/Double type conversions in coordinate tests
 
 #### UI Issues
 
-- ✅ **Compose Preview**: Verify previews render correctly
-- ✅ **Theme Application**: Check Material 3 theme is applied
-- ✅ **Navigation**: Ensure proper navigation graph setup
-- ✅ **State Management**: Verify StateFlow observation patterns
+- **Compose Preview**: Verify previews render correctly
+- **Theme Application**: Check Material 3 theme is applied
+- **Navigation**: Ensure proper navigation graph setup
+- **State Management**: Verify StateFlow observation patterns
 
 ### Debug Commands
 
@@ -507,7 +507,7 @@ adb shell pm list packages | grep munay
 adb shell dumpsys activity | grep munay
 ```
 
-## 📚 API Reference
+## API Reference
 
 ### Core Interfaces
 
@@ -563,7 +563,7 @@ fun latLngToCanvasPoint(
 ): PointF
 ```
 
-## 🗺️ Roadmap & Future Development
+## Roadmap & Future Development
 
 ### Current Status: Demo Complete v1.0
 
@@ -571,7 +571,7 @@ GeoJson Android Demo is a fully functional application showcasing modern Android
 
 ### Planned Enhancements & Features
 
-#### Phase 1: Enhanced Mapping Features 🎯
+#### Phase 1: Enhanced Mapping Features
 
 **Interactive GeoJSON Features**
 - Touch interaction with map features
@@ -585,7 +585,7 @@ GeoJson Android Demo is a fully functional application showcasing modern Android
 - Animated transitions between features
 - Performance optimization for large datasets
 
-#### Phase 2: Advanced Capabilities 🚀
+#### Phase 2: Advanced Capabilities
 
 **Data Integration**
 - Remote GeoJSON loading from APIs
@@ -599,7 +599,7 @@ GeoJson Android Demo is a fully functional application showcasing modern Android
 - Custom map styles and themes
 - Accessibility improvements
 
-#### Phase 3: Production Features 💼
+#### Phase 3: Production Features
 
 **Performance & Monitoring**
 - Advanced performance metrics
@@ -613,24 +613,24 @@ GeoJson Android Demo is a fully functional application showcasing modern Android
 - Performance testing benchmarks
 - Accessibility testing automation
 
-## 🤝 Contributing
+## Contributing
 
-### 🔍 Exploration Welcome
+### Exploration Welcome
 
 Anyone is welcome to:
 
-- ⭐ Star the repository to show support
-- 👀 Explore the codebase and learn from the implementation
-- 📖 Read the documentation and understand the architecture
-- 🐛 Report bugs through GitHub Issues
-- 💡 Suggest features and improvements
-- 📝 Share feedback on the implementation
+- Star the repository to show support
+- Explore the codebase and learn from the implementation
+- Read the documentation and understand the architecture
+- Report bugs through GitHub Issues
+- Suggest features and improvements
+- Share feedback on the implementation
 
-### 🔐 Selective Contribution Process
+### Selective Contribution Process
 
 This project maintains high code quality and architectural integrity. To ensure the best possible contributions:
 
-#### Step 1: Request Access 📧
+#### Step 1: Request Access 
 
 Before cloning or submitting PRs:
 
@@ -641,7 +641,7 @@ Before cloning or submitting PRs:
    - Specific feature/area you'd like to contribute to
    - Expected timeline for your contribution
 
-#### Step 2: Approval Process ✅
+#### Step 2: Approval Process 
 
 Maintainer will evaluate based on:
 
@@ -650,7 +650,7 @@ Maintainer will evaluate based on:
 - Commitment to project standards
 - Available capacity for code review and mentorship
 
-#### Step 3: Authorized Development 🛠️
+#### Step 3: Authorized Development 
 
 Once approved, you'll receive:
 
@@ -687,11 +687,11 @@ Once approved, you'll receive:
 - **Edge Cases**: Include error scenarios and boundary conditions
 - **Performance**: Consider test execution speed and reliability
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Maps**: Coordinate handling and geographic utilities (`com.google.android.gms:play-services-maps`)
 - **Jetpack Compose**: Modern declarative UI toolkit for Android
@@ -700,7 +700,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Kotlin Coroutines**: Excellent async programming support
 - **Mockito**: Comprehensive mocking framework for unit testing
 
-## 📞 Support
+## Support
 
 ### Getting Help
 - **GitHub Issues**: [GitHub Issues](https://github.com/emilio-navarro/GeminiMQTT/issues)
